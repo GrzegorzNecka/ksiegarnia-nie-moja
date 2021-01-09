@@ -1,0 +1,58 @@
+body {
+  background: #eaeaea;
+}
+
+* {
+  font-family: Lato;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  margin: 30px 0;
+}
+
+.app {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.entry {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.entry__image {
+  width: 50px;
+  height: 50px;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+.entry__name, .entry__author {
+  margin: 0;
+}
+
+.entry__author {
+  font-size: .7rem;
+  margin-bottom: 10px;
+}
+
+.entry__description {
+  font-size: .6rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: .6rem 1.2rem;
+  border-radius: 50px;
+  background-color: #11B5E4;
+  color: white;
+}
